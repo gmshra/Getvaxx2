@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  {% load static %}
+  <link rel="shortcut icon" href="{% static 'Images/favicon.png' %}" type="image/x-icon">
+
+  <title>GetVaxx</title>
+
+
+  <!-- bootstrap core css -->
+   {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'Css/bootstrap.css' %}" />
+
+  <!-- fonts style -->
+   {% load static %}
+  <link href="{% static 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap' %}" rel="stylesheet">
+
+  <!-- nice selecy -->
+   {% load static %}
+  <link rel="stylesheet" href="{% staticCss/nice-select.min.css' %}">
+
+  <!--owl slider stylesheet -->
+   {% load static %}
+  <link rel="stylesheet" type="text/css"
+    href="{% static 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' %}" />
+
+  <!-- font awesome style -->
+  {% load static %}
+  <link href="{% static 'Css/font-awesome.min.css' %}" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+   {% load static %}
+  <link href="{% static 'Css/style.css' %}" rel="stylesheet" />
+  <!-- responsive style -->
+   {% load static %}
+  <link href="{% static 'Css/responsive.css' %}" rel="stylesheet" />
+
+</head>
+
+<body>
+  <a href ="/homepage/">
+
+  <div class="hero_area">
+    <div class="bg-box">
+
+      {% load static %}
+      <img src="{% static 'Images/pexels-artem-podrez-4492048.jpg' %}" alt="">
+    </div>
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="Index.html">
+            <span>
+              GetVaxx
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ">
+              <li class="nav-item active">
+                <a class="nav-link" href = "/homepage/ ">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pricing.html">Covid-info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="why.html">Why Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href = "loginandregister/login.html" >Register/Login</a>
+              </li>
+            </ul>
+            <form class="form-inline">
+              <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div class="container">
+        <div class="detail-box col-md-9 mx-auto px-0">
+          <h1>
+            Finding Vaccination Slots Made Easy
+          </h1>
+          <p>
+            Lets make our immunity stronger to fight the virus!!!
+          </p>
+        </div>
+        <div class="find_form_container">
+          <form action="#">
+            <div class="form-row">
+              <div class="col-md-4 px-0">
+                <div class="form-group">
+
+                </div>
+              </div>
+              <div class="col-md-4 px-0">
+                <div class="form-group ">
+
+                </div>
+              </div>
+              <div class="col-md-4 px-0">
+                <div class="form-group">
+
+                </div>
+              </div>
+            </div>
+            <div class="btn-box">
+              <button type="submit" class="">
+                <span>
+                  Book a vaccine
+                </span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container  ">
+      <div class="heading_container ">
+        <h2>
+          About Us
+        </h2>
+        <p>
+          Our aim is to vaccinate each and every individual to live a better life.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 ">
+          <div class="img-box">
+            {% load static %}
+            <img src="{% static 'Images/acout.jpg' %}" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="detail-box">
+            <h3>
+              We Are Here For Help
+            </h3>
+            <p>
+              The first known infections from SARS-CoV-2 were discovered in Wuhan, China. The original source of viral
+              transmission to humans remains unclear, as does whether the virus became pathogenic before or after the
+              spillover event.It is not certain how long the virus that causes COVID-19 survives on surfaces, but it
+              seems likely to behave like other coronaviruses. A recent review of the survival of human coronaviruses on
+              surfaces found large variability, ranging from 2 hours to 9 days.
+              The survival time depends on a number of factors, including the type of surface, temperature, relative
+              humidity and specific strain of the virus.
+            </p>
+            <p>
+              Composition of Covishield includes inactivated adenovirus with segments of Coronavirus, Aluminium
+              Hydroxide Gel, L-Histidine, L-Histidine Hydrochloride Monohydrate, Magnesium Chloride Hexahydrate,
+              Polysorbate 80, Ethanol, Sucrose, Sodium Chloride, and Disodium Edetate Dihydrate (EDTA). Composition of
+              Covaxin includes inactivated Coronavirus, Aluminum Hydroxide Gel, TLR 7/8 Agonist, 2-Phenoxyethanol and
+              Phosphate Buffered Saline [NKA1]
+            </p>
+            <a href="">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- why section -->
+
+  <section class="why_section layout_padding-bottom">
+    <div class="container">
+      <div class="col-md-10 px-0">
+        <div class="heading_container">
+          <h2>
+            Why Choose Us
+          </h2>
+          <p>
+            Our website will help people to get vaccinated in there nearest Vaccination Center and it will allow to
+            download the certificate.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              {% load static %}
+              <img src="{% static 'Images/w1.png' %}" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                No Booking Fees
+              </h4>
+              <p>
+                Our website will not charge a single penny for the booking of the slots as our motive is to make our
+                country safe from this virus.
+                <br>
+                <br>
+                <br>
+                <br>
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              {% load static %}
+              <img src="{% static 'Images/syringe.png' %}" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Online Booking Slots
+              </h4>
+              <p>
+                As we know that this virus spreads through air and to stop that we have create this website so that a
+                user can easily book a vaccine by sitting inside the house.
+                <br>
+                <br>
+                <br>
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box ">
+            <div class="img-box">
+              {% load static %}
+              <img src="{% static 'Images/w3.png' %}" alt="">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Simple Booking Process
+              </h4>
+              <p>
+                Vaccine can be booked easily just by entering name,age,city and email id. after entering these details a
+                slot will be booked in the nearest vaccination center.
+                <br>
+                <br>
+                <br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end why section -->
+
+  <!-- pricing section -->
+
+  <section class="pricing_section layout_padding">
+    <div class="bg-box">
+      {% load static %}
+      <img src="{% static 'Images/steps.jpg' %}" alt="">
+    </div>
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Steps to Get Slot
+        </h2>
+      </div>
+      <div class="col-xl-10 px-0 mx-auto">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mx-auto">
+            <div class="box">
+              <h4 class="price">
+                Step 1
+              </h4>
+              <h5 class="name">
+                Register
+              </h5>
+              <p>
+                Before booking the slot the user should register itself as it would help us to book a slot at your
+                nearest vaccination center.
+              </p>
+              <a href="">
+                Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mx-auto">
+            <div class="box box-center">
+              <h4 class="price">
+                Step 2
+              </h4>
+              <h5 class="name">
+                Login as user
+              </h5>
+              <p>
+                After registering the user must login. After logging in the users details will displayed followed by the
+                book the vaccine option on it.Which will user to book a slot.
+              </p>
+              <a href="">
+                Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mx-auto">
+            <div class="box">
+              <h4 class="price">
+                Step 3
+              </h4>
+              <h5 class="name">
+                Book your slot
+              </h5>
+              <p>
+                By entering the details like Name,Email id,Age,City,etc the slot will be booked.
+              </p>
+              <a href="">
+                Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end pricing section -->
+
+
+  <!-- client section -->
+
+  <section class="client_section layout_padding">
+    <div class="container">
+      <div class="heading_container col">
+        <h2>
+          Covid 19 live tracking
+        </h2>
+      </div>
+      <div class="client_container">
+        <div class="carousel-wrap ">
+          <div class="owl-carousel client_owl-carousel">
+            <div class="item">
+              <div class="box">
+                <div class="detail-box">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                  </p>
+                </div>
+                <div class="client_id">
+                  <div class="img-box">
+                    {% load static %}
+                    <img src="{% static 'Images/c1.jpg' %}" alt="" class="img-1">
+                  </div>
+                  <div class="name">
+                    <h6>
+                      Lisa Adams
+                    </h6>
+                    <p>
+                      Magna
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="detail-box">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                  </p>
+                </div>
+                <div class="client_id">
+                  <div class="img-box">
+                    {% load static %}
+                    <img src="{% static 'Images/c2.jpg' %}" alt="" class="img-1">
+                  </div>
+                  <div class="name">
+                    <h6>
+                      Michel Trout
+                    </h6>
+                    <p>
+                      Magna
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+  <!-- info section -->
+  <section class="info_section ">
+
+    <div class="container">
+      <div class="info_top ">
+        <div class="row ">
+          <div class="col-md-6 col-lg-3 info_col">
+            <div class="info_form">
+              <h4>
+                Stay Connected
+              </h4>
+              <form action="">
+                <input type="text" placeholder="Enter Your Email" />
+                <button type="submit">
+                  Subscribe
+                </button>
+              </form>
+              <div class="social_box">
+                <a href="">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 info_col ">
+            <div class="info_detail">
+              <h4>
+                About Us
+              </h4>
+              <p>
+                We just took an initiative to help our country and people to fight this hazardious virus.Gaurav,Rahul
+                and Yogesh are the developers of this websites.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 info_col ">
+            <div class="info_detail">
+              <h4>
+                Online Booking
+              </h4>
+              <p>
+                Online booking of vaccine is the best option as it is safe and anyone can use this by sitting inside
+                there house.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 info_col">
+            <h4>
+              Contact us
+            </h4>
+            <p>
+              You can contact us by our email id or by using our toll free no.:-
+            </p>
+            <div class="contact_nav">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Location
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call : +91 123455678990
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  Email : sfit@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end info_section -->
+  <!-- footer section -->
+
+  <!-- footer section -->
+
+  <!-- jQery -->
+
+
+</body>
+
+</html>
